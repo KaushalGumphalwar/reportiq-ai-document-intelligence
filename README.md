@@ -126,15 +126,65 @@ ReportIQ-AI/
 
 ---
 
-# ⚙️ Environment Variables
+## 🚀 Installation & Setup
 
-Create a `.env` file:
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/<your-username>/reportiq-ai-document-intelligence.git
+cd reportiq-ai-document-intelligence
+```
+
+---
+
+### 2️⃣ Create Conda Environment
+
+```bash
+conda create -n reportiq_env python=3.10 -y
+```
+
+Activate environment:
+
+```bash
+conda activate reportiq_env
+```
+
+---
+
+### 3️⃣ Install Backend Dependencies
+
+```bash
+cd backend
+pip install -r requirements.txt
+cd ..
+```
+
+---
+
+### 4️⃣ Install Frontend Dependencies
+
+```bash
+cd frontend
+pip install -r requirements.txt
+cd ..
+```
+
+---
+
+### 5️⃣ Configure Environment Variables
+
+Create a `.env` file in the project root directory:
 
 ```env
 GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 ```
 
+Get your Gemini API key from:
+
+https://aistudio.google.com/app/apikey
+
 ---
+
 
 # ▶️ Run FastAPI Backend
 
