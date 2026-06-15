@@ -302,8 +302,10 @@ Through this project I learned:
 
 Machine Learning | Generative AI | LLM Applications | FastAPI | Docker
 
+GitHub: https://github.com/KaushalGumphalwar
+
 ---
 
 # ⭐ If you found this project useful
 
-Please consider giving it a ⭐ on GitHub.
+Please consider giving this repository a star ⭐ on GitHub.
