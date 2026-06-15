@@ -1,0 +1,41 @@
+# Environment Variables:
+.env
+.env.*
+
+# Python Cache files and folders:
+__pycache__/
+*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual Environments:
+venv/
+env/
+ENV/
+.venv/
+chatpdf_env/
+chatpdf_env2/
+
+# VS Code (IDE Files):
+.vscode/
+
+# Logs:
+*.log
+
+# Operating System Files:
+.DS_Store
+Thumbs.db
+
+# Jupyter:
+.ipynb
+.ipynb_checkpoints/
+
+# Unnecessary files & folders:
+rough.ipynb
+Static/
+timepass/
+
+# Project related:
+uploads/
+figures/
+vectorstores/
